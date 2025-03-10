@@ -1,1 +1,0 @@
-/Users/evgenioni/.vimrc
