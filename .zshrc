@@ -91,6 +91,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
+bindkey  "^[[1;3C" forward-word
+bindkey  "^[[1;3D" backward-word
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
