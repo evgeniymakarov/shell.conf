@@ -94,6 +94,10 @@ bindkey  "^[[F"   end-of-line
 bindkey  "^[[1;3C" forward-word
 bindkey  "^[[1;3D" backward-word
 
+bindkey '^W' copy-region-as-kill
+bindkey '^Y' yank
+bindkey '^X' backward-kill-word
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
