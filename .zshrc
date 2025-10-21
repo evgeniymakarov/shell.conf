@@ -89,6 +89,8 @@ plugins=(git z zsh-autosuggestions fast-syntax-highlighting cmdtime fzf sudo)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
